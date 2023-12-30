@@ -6,4 +6,5 @@
     <color name="background_light">#F6F6F6</color>
     <color name="bottom_navbar_light">#FFFFFFFF</color>
     <color name="toolbarBackgroundColor">#fcbc81</color>
+    <color name="green">#d8f0b4</color>
 </resources>

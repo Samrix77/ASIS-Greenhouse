@@ -2,13 +2,17 @@ package com.example.asisgreenhouse_v8;
 
 import android.content.Context;
 import android.content.Intent;
+import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.core.content.ContextCompat;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -44,6 +48,7 @@ public class OrderAdapter extends ArrayAdapter<Order> {
         }
 
         // Lookup view for data population
+        LinearLayout lo_order_record = convertView.findViewById(R.id.lo_order_record);
         TextView tvOrderID = convertView.findViewById(R.id.tvOrderID);
         TextView tvOrderEmail = convertView.findViewById(R.id.tvOrderEmail);
         TextView tvOrderDatetime = convertView.findViewById(R.id.tvOrderDatetime);
@@ -67,6 +72,11 @@ public class OrderAdapter extends ArrayAdapter<Order> {
             tvOrderProductName.setText(order.getProductName());
             tvOrderQuantity.setText(order.getQuantity().toString());
             tvOrderProductPrice.setText("$" + order.getProductPrice());
+
+            if(order.getApproved())
+            {
+                lo_order_record.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.green));
+            }
 
             // Set up the disapprove button click listener
             btnDisapprove.setOnClickListener(new View.OnClickListener() {
