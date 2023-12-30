@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="navSelectedColor">#fcbc81</color>
+    <color name="background_light">#F6F6F6</color>
+    <color name="bottom_navbar_light">#FFFFFFFF</color>
+    <color name="toolbarBackgroundColor">#fcbc81</color>
+</resources>

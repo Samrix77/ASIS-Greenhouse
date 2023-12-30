@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "45625774833",
+    "firebase_url": "https://asisgreenhouse-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "asisgreenhouse",
+    "storage_bucket": "asisgreenhouse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45625774833:android:248de8e8be93525ad28f50",
+        "android_client_info": {
+          "package_name": "com.example.asisgreenhouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45625774833-lf9pkvbalui2niaqi5ok8smo44jcqcmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh_1oUrqyImIRD9XpyFDrG02HprlQWEGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45625774833-lf9pkvbalui2niaqi5ok8smo44jcqcmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45625774833:android:e20a94acff8df1c4d28f50",
+        "android_client_info": {
+          "package_name": "com.example.asisgreenhouse_v8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45625774833-lf9pkvbalui2niaqi5ok8smo44jcqcmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh_1oUrqyImIRD9XpyFDrG02HprlQWEGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45625774833-lf9pkvbalui2niaqi5ok8smo44jcqcmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

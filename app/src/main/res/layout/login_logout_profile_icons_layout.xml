@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:orientation="horizontal">
+
+
+
+<ImageView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/signoutIcon_btn"
+android:layout_width="32dp"
+android:layout_height="32dp"
+android:src="@drawable/ic_sign_out"
+android:layout_alignParentTop="true"
+android:layout_alignParentEnd="true"
+android:layout_marginRight="5dp"
+android:layout_marginTop="17dp"
+android:clickable="true"
+android:visibility="gone"
+android:focusable="true"/>
+
+    <ImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/loginIcon_btn"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_login"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="17dp"
+        android:clickable="true"
+        android:visibility="gone"
+        android:focusable="true"/>
+
+    <ImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/profileIcon_btn"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_account"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="17dp"
+        android:clickable="true"
+        android:visibility="gone"
+        android:focusable="true"/>
+
+    </LinearLayout>
